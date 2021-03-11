@@ -57,6 +57,7 @@ puts "Please enter a number (1-9):"
     token = current_player
     move(index, token)
   else
+    puts "That spot is taken!"
     turn
   end
   display_board
